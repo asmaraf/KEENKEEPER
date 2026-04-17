@@ -16,7 +16,7 @@ export default function App() {
     <Router>
       <div className="min-h-screen flex flex-col bg-[#f8f9fa] font-sans text-gray-900">
         <Navbar />
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<Home state={state} />} />
             <Route path="/friend/:id" element={<FriendDetail state={state} />} />
